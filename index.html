@@ -42,7 +42,7 @@
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-<!--           <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
+          <!-- <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
@@ -82,13 +82,15 @@
               <p>
                 Developed an Android application for background removal written in Java.
               </p>
+
               <ul class="work__list">
-                <li>Designed and developed using a state-of-the-art segmentation model for precise background removal</li>
-                <li>Written in Java and integrated with PyTorch Mobile for on-device processing</li>
-                <li>Performs all processing on the device, eliminating the need for an internet connection</li>
-                <li>Capability to take photos directly from the camera or select images from the gallery</li>
-                <li>Features both background removal and replacement functionality</li>
+                <li>Designed and developed a state-of-the-art segmentation model for precise background removal.</li>
+                <li>Implemented in Java and integrated with PyTorch Mobile for efficient on-device processing.</li>
+                <li>Ensured all processing is performed on-device, eliminating the need for an internet connection.</li>
+                <li>Enabled functionality to capture photos directly from the camera or select images from the gallery.</li>
+                <li>Integrated both background removal and replacement capabilities for enhanced user experience.</li>
               </ul>
+              
               
 
               <div class="work__links">
@@ -115,7 +117,7 @@
               <ul class="work__list">
                 <li>Developed in Python to present questions and allow selection of multiple-choice answers</li>
                 <li>Integrated ChatGPT via the OpenAI API for interactive user assistance</li>
-                <li>Ensures relevance by restricting irrelevant questions</li>
+                <li>Ensured relevance by restricting irrelevant questions</li>
                 <li>Designed using the Tkinter library for desktop application development</li>
               </ul>
 
@@ -132,6 +134,199 @@
               <img src="./images/mock_test.png" class="work__image" alt="Project 1" />
             </div>
           </div>
+
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Paper Implementation</h3>
+              <p>
+                Implemented DRAEM -- A discriminatively trained reconstruction embedding for surface anomaly detection in Tensorflow.
+              </p>
+              <ul class="work__list">
+                <li>Reproduced the anomaly detection model using TensorFlow, following the detailed steps from the paper.</li>
+                <li>Trained the model on the MVTec AD dataset, which includes a variety of industrial images with annotated anomalies, to ensure robust anomaly detection performance.</li>
+                <li>Added the implementation to the Papers with Code platform, making it accessible to the research community and facilitating reproducibility and further research.</li>
+              </ul>
+              
+
+              <div class="work__links">
+                <a href="https://github.com/farazBhatti/DRAEM-Tensoflow" target="_blank" class="link__text">
+                  View Source Code <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/farazBhatti/DRAEM-Tensoflow" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a> 
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/paper.JPG" class="work__image" alt="Project 1" style="width: 500px; height: auto;" />
+            </div>
+          </div>
+
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Spothole</h3>
+              <p>
+                Developed "Spothole," an advanced pothole detection system utilizing computer vision and geospatial analysis to enhance road maintenance efficiency. This project leverages a YOLOv8 trained model for accurate pothole detection from road videos.
+              </p>
+              <ul class="work__list">
+                <ul class="work__list">
+                  <li>Designed and developed a user-friendly interface using Tkinter for easy uploading and processing of road videos.</li>
+                  <li>Trained and integrated YOLOv8 for pothole detection.</li>
+                  <li>Implemented real-time pothole detection in the video feed once uploaded.</li>
+                  <li>Captured and logged the longitude and latitude of each detected pothole into a CSV file for documentation and further processing.</li>
+                  <li>Utilized Folium maps and OSMnx to segment roads into 500-meter intervals for detailed spatial analysis.</li>
+                  <li>Analyzed the density of potholes within each 500-meter road segment based on the recorded locations.</li>
+                  <li>Generated a final map with a heatmap overlay to visually represent the concentration of potholes across different road segments, aiding in targeted road maintenance.</li>
+                </ul>
+                
+              
+
+              <div class="work__links">
+                <!-- <a href="https://github.com/farazBhatti/DRAEM-Tensoflow" target="_blank" class="link__text">
+                  View Source Code <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/farazBhatti/DRAEM-Tensoflow" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>  -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/pothole.JPG" class="work__image" alt="Project 1" style="width: 450px; height: auto;" />
+            </div>
+          </div>
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Golf Tracer</h3>
+              <p>
+                Developed a Golf Tracer application capable of accurately tracing the trajectory of a golf. This application enhances the golfing experience by providing detailed visual feedback.
+              </p>
+              <ul class="work__list">
+                <li>Designed real-time trajectory overlay feature.</li>
+                <li>Implemented traditional Computer Vision and Image Processing techniques.</li>
+              </ul>
+              
+              
+              
+
+              <div class="work__links">
+                <!-- <a href="https://github.com/farazBhatti/DRAEM-Tensoflow" target="_blank" class="link__text">
+                  View Source Code <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/farazBhatti/DRAEM-Tensoflow" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>  -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <!-- <img src="./images/pothole.JPG" class="work__image" alt="Project 1" style="width: 450px; height: auto;" /> -->
+              <video width="350" height="auto" controls>
+                <source src="./images/golf.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            
+            </div>
+          </div>
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Speed Limiter Android Application</h3>
+              <p>
+                Developed an Android application with advanced location sharing and safety features.
+              </p>
+              <ul class="work__list">
+                <li>Designed and integrated primary options: Send and Receive.</li>
+                <li>Developed the Send option to capture live speed and location of the user while driving, transmitting the data to Firebase in real-time.</li>
+                <li>Implemented sleep detection and "Eyes on Road" detection using MediaPipe for enhanced safety.</li>
+                <li>Developed the Receive option to display live location and speed details on a map, providing real-time safety information.</li>
+              </ul>
+              
+              <div class="work__links">
+                <!-- Uncomment and update the links if you want to include them -->
+                <!-- <a href="https://github.com/yourusername/Speed-Limiter-App" target="_blank" class="link__text">
+                  View Source Code <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/yourusername/Speed-Limiter-App" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a> -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/speed_limiter.jpg" class="work__image" alt="Speed Limiter Android Application" style="width: 300px; height: auto;" />
+            </div>
+          </div>
+          
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Demo AI Assistant Website</h3>
+              <p>
+                Designed and implemented an AI assistant website.
+              </p>
+              <ul class="work__list">
+                <ul class="work__list">
+                  <li>Backend architecture implemented using Node.js, with the frontend developed using React.</li>
+                  <li>Incorporates on-device processing with Whisper for real-time audio transcription from user input.</li>
+                  <li>Utilizes a local LLM (LLaMA.cpp) within the Node.js environment to generate AI responses based on user interactions.</li>
+                  <li>Integrates a Text-to-Speech (TTS) module to convert AI-generated responses into audio output for the user.</li>
+                </ul>
+                
+              </ul>
+              <div class="work__links">
+                <!-- Uncomment and update the links if you want to include them -->
+                <!-- <a href="https://github.com/yourusername/Demo-AI-Assistant-Website" target="_blank" class="link__text">
+                  View Source Code <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/yourusername/Demo-AI-Assistant-Website" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a> -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/website.jpg" class="work__image" alt="Demo AI Assistant Website" style="width: 500px; height: auto;" />
+            </div>
+          </div>
+          
+
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Any2English</h3>
+              <p>
+                Developed "Any2English," a Multi-Lingual Video to English Dubbing tool with Lip Sync capability.
+              </p>
+              <ul class="work__list">
+                <li>Utilized advanced libraries and models including Whisper for language translation, Tortoise TTS for text-to-speech conversion, and Wav2Lip for lip synchronization.</li>
+                <li>Established a user-friendly workflow documented within a Google Colab notebook, facilitating easy adoption and usage.</li>
+              </ul>
+              <div class="work__links">
+                <!-- Uncomment and update the links if you want to include them -->
+                <a href="https://github.com/hamzakhalil798/Any2English" target="_blank" class="link__text">
+                  View Source Code <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/hamzakhalil798/Any2English" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/any2english.jpg" class="work__image" alt="Demo AI Assistant Website" style="width: 600px; height: auto;" />
+            </div>
+          </div>
+
+
+
+
+
+
+
         </div>
       </div>
     </section>
@@ -149,10 +344,7 @@
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+              Hi there! I'm Hamza Khalil, an AI engineer fueled by a passion for Artificial Intelligence and its potential to revolutionize various industries. My expertise lies in applying machine learning and deep learning techniques to solve real-world problems and create impactful AI solutions.
             </p>
             <!-- Provide a link to your resume -->
             <a href="#" class="btn">My Resume</a>
@@ -176,7 +368,7 @@
         <p>
           <h3>AI Engineer</h3>
 <p>
-  Are you looking for advanced AI solutions that can be deployed to websites, web applications, or other platforms? Whether you need expertise in various AI technologies, I can help. Have questions, need consultation, or just want to say "Hi 👋"? Feel free to reach out! I will do my best to respond promptly. 😊 The quickest way to contact me is via email.
+  Are you in need of a high-performance and intuitive AI system to enhance your product or business? Seeking expert consultation or have burning questions about AI technology? Or simply want to connect and say "Hi 👋"? Whatever your needs, don't hesitate to reach out. I'm here to assist you every step of the way. Feel free to drop me an email for the fastest response. Let's bring your AI vision to life!
 </p>
 
         </p>
